@@ -4,33 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Студія</title>
   </head>
   <body class="page">
     <!--Шапка сайту-->
     <header class="dh">
-      <nav class="dh-navi">
-        <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
-        <ul>
+      <nav class="dh-nav">
+        <a class="logo link" href="./index.html"><span class="accent">Web</span>Studio</a>
+        <ul class="ul">
           <li>
-            <a class="dh-navi-studio" href="./index.html">Студія</a>
+            <a class="dh-navi current link" href="./index.html">Студія</a>
           </li>
           <li>
-            <a class="dh-navi-portfolio" href="./portfolio.html">Портфоліо</a>
+            <a class="dh-navi link" href="./portfolio.html">Портфоліо</a>
           </li>
           <li>
-            <a class="dh-navi-contacts" href="#">Контакти</a>
+            <a class="dh-navi link" href="#">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="add">
+      <ul class="add ul">
         <li>
-          <a class="dh-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="dh-add link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="dh-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="dh-add link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -43,7 +48,7 @@
       <!--Особливості нашої компанії-->
       <section class="features">
         <h2 class="visually-hidden">Особливості нашої компанії</h2>
-        <ul>
+        <ul class="ul">
           <li class="features-warning">
             <h3 class="features-title">Увага до деталей</h3>
             <p class="features-text">
@@ -73,7 +78,7 @@
       <!--Чим займаємось-->
       <section class="work">
         <h2 class="work-title">Чим ми займаємося</h2>
-        <ul>
+        <ul class="ul">
           <li class="work-container">
             <img class="work-container-image" src="./images/box1.jpg" alt="Верстка" width="370" />
           </li>
@@ -93,25 +98,25 @@
       <!--Наша команда-->
       <section class="team">
         <h2 class="team-title">Наша команда</h2>
-        <ul>
+        <ul class="ul">
           <li>
             <img src="./images/img1.jpg" alt="Ігор Дем'яненко" width="270" />
-            <h3 class="team-title3">Ігор Дем'яненко</h3>
+            <h3 class="name-title">Ігор Дем'яненко</h3>
             <p class="team-text">Product Designer</p>
           </li>
           <li>
             <img src="./images/img2.jpg" alt="Ольга Рєпіна" width="270" />
-            <h3 class="team-title3">Ольга Рєпіна</h3>
+            <h3 class="name-title">Ольга Рєпіна</h3>
             <p class="team-text">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/img3.jpg" alt="Микола Тарасов" width="270" />
-            <h3 class="team-title3">Микола Тарасов</h3>
+            <h3 class="name-title">Микола Тарасов</h3>
             <p class="team-text">Marketing</p>
           </li>
           <li>
             <img src="./images/img4.jpg" alt="Михайло Єрмаков" width="270" />
-            <h3 class="team-title3">Михайло Єрмаков</h3>
+            <h3 class="name-title">Михайло Єрмаков</h3>
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
@@ -119,12 +124,12 @@
     </main>
     <!--Футер-->
     <footer class="df">
-      <a class="logo-footer" href="./index.html"><span class="accent-footer">Web</span>Studio</a>
-      <address class="addr">
-        <ul class="add-footer">
+      <a class="logo-footer link" href="./index.html"><span class="accent">Web</span>Studio</a>
+      <address class="addf">
+        <ul class="add-footer ul">
           <li>
             <a
-              class="addr-map"
+              class="addr-map link"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               rel="noopener noreferrer nofollow"
               target="_blank"
@@ -132,10 +137,10 @@
             >
           </li>
           <li>
-            <a class="addr-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="addr-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a class="addr-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="addr-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
